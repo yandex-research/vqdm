@@ -144,7 +144,7 @@ Models via Vector Quantization</h1>
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-        <img src="static/images/vqdm_overview_with_scales.png" alt="MY ALT TEXT"/>
+        <img src="static/images/vqdm_overview_wo_input_scales.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Overview of the proposed layer-wise calibration procedure before fine-tuning.
         </h2>
@@ -167,7 +167,7 @@ Models via Vector Quantization</h1>
   <i>Post-training quantization</i> (PTQ) tackles this issue by compressing the pretrained model weights into lower-bit representations.
   Recent diffusion quantization techniques primarily rely on <i>uniform scalar quantization</i>, providing decent performance for the models compressed to 4 bits.
   This work demonstrates that more versatile <i>vector quantization</i> (VQ) may achieve higher compression rates for large-scale text-to-image diffusion models.
-  Specifically, we tailor vector-based PTQ methods to recent billion-scale text-to-image models, such as SDXL and SDXL-Turbo, and, for the first time, show that the diffusion models of 2B+ parameters can be compressed to around 3 bits without noticeable degradation in image quality and textual alignment, as confirmed by human evaluation.
+  Specifically, we tailor vector-based PTQ methods to recent billion-scale text-to-image models, such as SDXL and SDXL-Turbo, and show that the diffusion models of 2B+ parameters compressed to around 3 bits using VQ exhibit the same image quality and textual alignment as previous 4-bit compression techniques, as confirmed by human evaluation.
 
           </p>
         </div>

@@ -1,6 +1,6 @@
-Official repository for VQDM:Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization paper
+Official repository with code from "VQDM:Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization" paper.
 
-## Quantization
+## Usage
 
 ### Dependencies
 
@@ -10,16 +10,14 @@ pip install -r requirements.txt
 ```
 ### How to quantize a model with VQDM
 Please see examples of quantization, finetuning, metric calculation and image_generation scripts in the repository.
-For quantization - quantization.sh
-For finetuning - finetuning_quantization.sh
-For image generation for Human eval - eval_image_generation
-For metric calculation - metric_calculation.sh
-
+For quantization - `quantization.sh`
+For finetuning - `finetuning_quantization.sh`
+For image generation on a set of prompts - `eval_image_generation.sh`
+For metric calculation - `metric_calculation.sh`
 
 ```
-
 Main CLI arguments:
-- `CUDA_VISIBLE_DEVICES` - by default, the code will use all available GPUs. If you want to use specific GPUs (or one GPU), use this variable.
+- `CUDA_VISIBLE_DEVICES` - by default, the code will use all available GPUs. If you want to use specific GPUs (or one GPU), set up this variable.
 - `--calibration/finetune/evaluation nsamples` - the number of calibration/finetune/evaluation prompts
 - `--num_codebooks` - number of codebooks per layer
 - `--nbits_per_codebook` - each codebook will contain 2 ** nbits_per_codebook vectors
@@ -34,4 +32,3 @@ There are additional hyperparameters aviailable. Run `python main.py and main_te
 ```
 
 The  code is based on  [Extreme Compression of Large Language Models via Additive Quantization](https://github.com/Vahe1994/AQLM) 
-

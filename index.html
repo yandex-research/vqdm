@@ -4,23 +4,23 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta name="description" content="This work demonstrates that Vector Quantization for text-to-image Diffusion Models (VQDM) can achieve higher compression rates than previous scalar uniform compression techniques. Specifically, we show that the diffusion models with 2B+ parameters (SDXL and SDXL-Turbo), compressed to around 4 bits, outperform baselines in terms of image quality and textual alignment, whereas 3-bit compression matches their performance.">
+  <meta property="og:title" content="Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization"/>
+  <meta property="og:description" content="This work demonstrates that Vector Quantization for text-to-image Diffusion Models (VQDM) can achieve higher compression rates than previous scalar uniform compression techniques. Specifically, we show that the diffusion models with 2B+ parameters (SDXL and SDXL-Turbo), compressed to around 4 bits, outperform baselines in terms of image quality and textual alignment, whereas 3-bit compression matches their performance."/>
+  <meta property="og:url" content="https://yandex-research.github.io/vqdm/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image" content="static/images/vqdm_overview_wo_input_scales.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:title" content="Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization">
+  <meta name="twitter:description" content="This work demonstrates that Vector Quantization for text-to-image Diffusion Models (VQDM) can achieve higher compression rates than previous scalar uniform compression techniques. Specifically, we show that the diffusion models with 2B+ parameters (SDXL and SDXL-Turbo), compressed to around 4 bits, outperform baselines in terms of image quality and textual alignment, whereas 3-bit compression matches their performance.">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:image" content="static/images/vqdm_overview_wo_input_scales.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="diffusion models, Stable Diffusion, text-to-image, SDXL, SDXL-Turbo, quantization, vector quantization, PTQ, post-training quantization, compression">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -57,11 +57,11 @@ Models via Vector Quantization</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=Bktg6JEAAAAJ&hl=ru" target="_blank">Vage Egiazarian</a><sup>1, 2</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=Bktg6JEAAAAJ&hl=ru" target="_blank">Vage Egiazarian</a><sup>* 1, 2</sup>,</span>
                 <span class="author-block">
-                  <a href="https://scholar.google.com/citations?hl=ru&user=L78B2lcAAAAJ" target="_blank">Denis Kuznedelev</a><sup>1, 3</sup>,</span>
+                  <a href="https://scholar.google.com/citations?hl=ru&user=L78B2lcAAAAJ" target="_blank">Denis Kuznedelev</a><sup>* 1, 3</sup>,</span>
                   <span class="author-block">
-                    <a href="https://scholar.google.com/citations?hl=ru&user=GdnApR0AAAAJ" target="_blank">Anton Voronov</a><sup>1, 4</sup>,</span>
+                    <a href="https://scholar.google.com/citations?hl=ru&user=GdnApR0AAAAJ" target="_blank">Anton Voronov</a><sup>* 1, 4</sup>,</span>
                    <span class="author-block">
                   <a href="https://scholar.google.com/citations?hl=ru&user=RKFjdJEAAAAJ" target="_blank">Ruslan Svirschevski</a><sup>1, 2</sup>,</span>
                    <span class="author-block">
@@ -83,7 +83,7 @@ Models via Vector Quantization</h1>
                     <sup>3</sup>Skoltech</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <sup>4</sup>MIPT</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <sup>5</sup>Neural Magic</span>
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <sup>6</sup>IST Austria</span>
                    <!-- <br>Conferance name and year -->
-                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
                   <div class="column has-text-centered">

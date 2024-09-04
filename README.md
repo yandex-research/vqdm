@@ -1,4 +1,7 @@
-Official repository with code from "VQDM:Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization" paper.
+<a href='https://arxiv.org/abs/2409.00492'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; 
+<a href='https://yandex-research.github.io/vqdm/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; 
+
+Official repository with code from [VQDM: Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization](https://arxiv.org/abs/2409.00492) paper.
 
 ## Usage
 
@@ -32,3 +35,16 @@ There are additional hyperparameters aviailable. Run `python main.py and main_te
 ```
 
 The  code is based on  [Extreme Compression of Large Language Models via Additive Quantization](https://github.com/Vahe1994/AQLM) 
+
+### BibTeX
+```
+@misc{egiazarian2024accuratecompressiontexttoimagediffusion,
+      title={Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization}, 
+      author={Vage Egiazarian and Denis Kuznedelev and Anton Voronov and Ruslan Svirschevski and Michael Goin and Daniil Pavlov and Dan Alistarh and Dmitry Baranchuk},
+      year={2024},
+      eprint={2409.00492},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.00492}, 
+}
+```

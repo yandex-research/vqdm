@@ -30,7 +30,6 @@ python3 main_text2image.py \
   --finetune_method=teacher \
   --snapshot_step=1 \
   --eval_step=1 \
-  --groupwise_codebooks \
   --group_channels \
   --save=$DATA_PATH \
   --resume \
